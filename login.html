@@ -19,7 +19,7 @@
         <!-- 登陆模块 -->
         <div class="login-box">
             <!-- 登陆表单 -->
-            <form class="layui-form" action="">
+            <form class="layui-form" id="form_login">
                 <!-- 用户名 -->
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-username"></i>   
@@ -31,8 +31,8 @@
                     <input type="password" name="password" required  lay-verify="required" placeholder="请输入密码" autocomplete="off" class="layui-input">
                 </div>
                 <!-- 按钮 -->
-                <div class="layui-form-item">
-                    <button type="button" class="layui-btn layui-btn-fluid layui-btn-normal">登陆</button>
+                <div class="layui-form-item" >
+                    <button type="button" class="layui-btn layui-btn-fluid layui-btn-normal" lay-submit>登陆</button>
                 </div>
                 <div class="layui-form-item links">
                     <a href="javascript:;" id="link_reg">去注册账号</a>
@@ -62,7 +62,7 @@
                 
                 <!-- 按钮 -->
                 <div class="layui-form-item">
-                    <button type="button" class="layui-btn layui-btn-fluid layui-btn-normal">注册</button>
+                    <button type="button" class="layui-btn layui-btn-fluid layui-btn-normal" lay-submit>注册</button>
                 </div>
 
 
